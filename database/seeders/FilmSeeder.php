@@ -16,20 +16,28 @@ class FilmSeeder extends Seeder
         $movies = 
         [
             [
-                'nama_film' => 'Kingsman: The Golden Circle ', 
-                'desk_film' => 'Kingsman: The Golden Circle merupakan sebuah film aksi petualangan Britania Raya-Amerika Serikat yang dirilis pada tahun 2017. Film yang disutradarai oleh Matthew Vaughn ini diperankan oleh Colin Firth, Taron Egerton dan masih banyak lagi. ', 
+                'nama_film' => 'Ngeri Ngeri Sedep ', 
+                'desk_film' => 'Film ini menceritakan tetang keriduan Mak Domu terhadap ketiga anak laki-lakinya yang merantau ke Pulau
+                Jawa. Ketiga anaknya tersebut sudah 3 tahun lebih tidak pulang. Tak hanya itu, film ini juga menggambarkan keinginan dari
+                Pak Domu agar ketiga anak lelakinya tersebut mengikui apa yang dia inginkan. Namun, ketiga anak lelakinya tersebut menolak
+                keinginan Pak Domu karena ingin menentukan hidup mereka sendiri. ', 
                 'cover_film' => 'uploads/Kingsman_The_Golden_Circle.png',
-                'harga' => '35000'
+                'harga' => '40000'
             ],
             [
-                'nama_film' => 'Frozen II', 
-                'desk_film' => 'Frozen II adalah film fantasi musikal animasi komputer Amerika yang diproduksi oleh Walt Disney Animation Studios. Film ke-58 yang diproduksi oleh studio, ini adalah sekuel dari film 2013 Frozen , dan menampilkan kembalinya sutradara Chris Buck dan Jennif', 
+                'nama_film' => 'KKN Di Desa Penari', 
+                'desk_film' => 'Film ini merupakan film horor yang diangkat dari kisah nyata yaitu 6 mahasiswa yang diteror dengan kejadian
+                mistis di sebuah desa terpencil. Diceritakan banyak kejadian mistis yang dialami oleh sekelompok mahasiswa ketika sedang 
+                melaksanakan kuliah kerja nyata (KKN) disebuah desa terpencil bernama Desa Penari. ', 
                 'cover_film' => 'uploads/220px-Frozen_2_poster.jpg',
-                'harga' => '35000'
+                'harga' => '45000'
             ],
             [
-                'nama_film' => 'The Expendables', 
-                'desk_film' => 'The Expendables adalah film Amerika Serikat produksi tahun 2010 bergenre ensemble thriller yang ditulis skenarionya oleh David Callaham dan Sylvester Stallone, serta disutradarai oleh Stallone, yang juga membintangi sebagai pemeran utama. ', 
+                'nama_film' => 'Jurassic World: Fallen Kingdom', 
+                'desk_film' => 'Film ini menceritakan tentang petualangan Owen Grady (Chriss Pratt) dan Claire Dearing (Bryce Dallas Howard) di Isla Nublar. 
+                Taman hiburan itu dimiliki oleh seorang yang kaya raya bernama masrani (Irrfan Khan), yang bekerjasama dengan pengembang dari sebuah perusahaan pemerintah yang diawasi militer.
+                Terletak disebuah pulau terpencil, para ilmuwan mengembang biakkan berbagai jenis dinosaurus, bahkan mampu membuat spesies lain yang lebih cerdas dan ganas, hasil pencampuran 
+                genetik berbagai dinosaurus predator.  ', 
                 'cover_film' => 'uploads/220px-Expendablesposter.jpg',
                 'harga' => '35000'
             ],

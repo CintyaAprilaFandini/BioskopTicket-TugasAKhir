@@ -1,16 +1,30 @@
-<footer class="fixed-bottom py-4">
+<div class="row">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Cintya & Aida 2022</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-right">
-                        <a class="mr-3" href="#!">Privacy Policy</a>
-                        <a href="#!">Terms of Use</a>
-                    </div>
+                <a class="navbar-brand js-scroll-trigger" href="{{route('home')}}"><img src="{{asset('assets/images/navbar-logo.png')}}" alt="" width="50%" heigth="25%"/></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive" style = "margin-left:30rem">
+                    <ul class="navbar-nav text-uppercase ml-auto"> 
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('users.index')}}" style="color: grey;">List User</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('booking.index')}}" style="color: grey;">List Pesanan</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('movies.create')}}" style="color: grey;">Upload Film</a></li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{{ route('logout') }}"
+                            onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();" style="color:grey">
+                            Log Out
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>
+        </nav>
+    </div>
+        <br><br><br>

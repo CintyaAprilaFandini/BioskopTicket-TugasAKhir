@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1 class="h1-large">PLAN<br> DESIGN<br> DEVELOP</h1>
+                    <h1 class="h1-large">ENJOY<br> YOUR<br> MOVIE</h1>
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="button-container">
@@ -38,7 +38,7 @@
                             <img class="img-fluid" src="assets/images/team-member-1.jpg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Cintya Aprila Fandini </h5>
+                            <h5 class="card-title">Cintya Aprilla Fandini </h5>
                             <p class="card-text">Business Developer</p>
                             <span class="fa-stack">
                                 <a href="#your-link">
@@ -167,7 +167,7 @@
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
-                        <p class="p-small">We would love to hear from you <a href="Cintyaaaf04@gmail.com"><strong>contact@site.com</strong></a></p>
+                        <p class="p-small">We would love to hear from you <a href="IrsyadhaFadhil@gmail.com"><strong>contact@site.com</strong></a></p>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -181,7 +181,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a href="#your-link">Cintya&Aida </a></p>
+                    <p class="p-small">Copyright © <a href="#your-link">Cintya & Aida </a></p>
                 </div> 
                 
                 <div class="col-lg-12">

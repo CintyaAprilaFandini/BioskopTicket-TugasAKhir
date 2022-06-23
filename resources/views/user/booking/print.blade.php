@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Invoices - CinAy Movie</title>
+        <title>Invoices - Gass Movie</title>
     </head>
     <body>
         <style type="text/css">
@@ -43,7 +43,7 @@
             <h2>Invoice</h2>
         </center>
         <p>
-        User Name       : {{ $booking->user->name}} <br>
+        User Name    : {{ $booking->user->name}} <br>
         Booking For     : {{ $booking->tanggal }}<br>
         </p>
         <br><br><br>
