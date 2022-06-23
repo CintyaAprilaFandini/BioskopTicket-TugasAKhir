@@ -23,10 +23,10 @@
 				<form action="{{ route('booking.store') }}" method="POST">
                     @csrf
                     <div class = "container">    
-                        <label for="id_film">Id Film</label>
+                     <label for="id_film">judul</label>
                         <input type="number" class="form-control" value="{{$movies->id}}" name="t_id" hidden>
                         
-                        <label for="nama_film">Judul Film</label>
+                        <label for="nama_film">Film</label>
                         <input type="text" class="form-control" value="{{$movies->nama_film}}" name="nama_film" disabled>
                             
                         <label for="jumlah_tiket">Jumlah Kursi</label>

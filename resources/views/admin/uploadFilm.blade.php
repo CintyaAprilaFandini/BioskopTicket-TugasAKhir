@@ -23,7 +23,7 @@
                         <textarea class="form-control" name="desk_film"></textarea>
 
                         <label for="cover_film">Cover Film</label>     
-                        <input class="form-control" type="file" name="cover_film">
+                        <input class="form-control" type="jpg" name="cover_film">
             
 						<input type="submit" value="Upload" class="btn float-right login_btn">
                     </div>

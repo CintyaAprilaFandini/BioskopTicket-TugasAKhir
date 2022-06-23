@@ -9,6 +9,7 @@
              <br>  
              <table class='table table-striped'>  
              <tr>
+               <br>
                 <th> Judul Film</th>
                 <th> Jumlah Kursi</th>
                 <th> Tanggal</th>

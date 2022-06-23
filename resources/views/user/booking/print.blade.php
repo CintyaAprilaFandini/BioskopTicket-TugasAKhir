@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Invoices - Gass Movie</title>
+        <title>Invoices - CinAy Movie</title>
     </head>
     <body>
         <style type="text/css">
@@ -40,10 +40,11 @@
         
         <img src="{{ storage_path('app/public/images/kop-nota.png')}}" alt="" margin="0 0 0 0">
         <center>
-            <h2>Invoice</h2>
+            <h2>----------Invoice------</h2>
+            <h2>--------------------------</h2>
         </center>
         <p>
-        User Name    : {{ $booking->user->name}} <br>
+        User Name       : {{ $booking->user->name}} <br>
         Booking For     : {{ $booking->tanggal }}<br>
         </p>
         <br><br><br>
