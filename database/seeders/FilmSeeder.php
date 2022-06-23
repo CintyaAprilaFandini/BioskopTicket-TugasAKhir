@@ -21,7 +21,7 @@ class FilmSeeder extends Seeder
                 Jawa. Ketiga anaknya tersebut sudah 3 tahun lebih tidak pulang. Tak hanya itu, film ini juga menggambarkan keinginan dari
                 Pak Domu agar ketiga anak lelakinya tersebut mengikui apa yang dia inginkan. Namun, ketiga anak lelakinya tersebut menolak
                 keinginan Pak Domu karena ingin menentukan hidup mereka sendiri. ', 
-                'cover_film' => 'uploads/Kingsman_The_Golden_Circle.png',
+                'cover_film' => 'uploads/ngeri.jpg',
                 'harga' => '40000'
             ],
             [
@@ -29,7 +29,7 @@ class FilmSeeder extends Seeder
                 'desk_film' => 'Film ini merupakan film horor yang diangkat dari kisah nyata yaitu 6 mahasiswa yang diteror dengan kejadian
                 mistis di sebuah desa terpencil. Diceritakan banyak kejadian mistis yang dialami oleh sekelompok mahasiswa ketika sedang 
                 melaksanakan kuliah kerja nyata (KKN) disebuah desa terpencil bernama Desa Penari. ', 
-                'cover_film' => 'uploads/220px-Frozen_2_poster.jpg',
+                'cover_film' => 'uploads/kkn.jpg',
                 'harga' => '45000'
             ],
             [
@@ -38,7 +38,7 @@ class FilmSeeder extends Seeder
                 Taman hiburan itu dimiliki oleh seorang yang kaya raya bernama masrani (Irrfan Khan), yang bekerjasama dengan pengembang dari sebuah perusahaan pemerintah yang diawasi militer.
                 Terletak disebuah pulau terpencil, para ilmuwan mengembang biakkan berbagai jenis dinosaurus, bahkan mampu membuat spesies lain yang lebih cerdas dan ganas, hasil pencampuran 
                 genetik berbagai dinosaurus predator.  ', 
-                'cover_film' => 'uploads/220px-Expendablesposter.jpg',
+                'cover_film' => 'uploads/jurassic.jpg',
                 'harga' => '35000'
             ],
             
