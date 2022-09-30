@@ -2,7 +2,9 @@
 @include('layouts.navbarUser')
 @section('content') 
 <br><br><br>
-    <h1>-_-_-_-_-_-Payment Summary-_-_-_-_-_-</h1>
+    <h1>-----------------^Payment Summary^----------------</h1>
+    <h1>----------------------------------------------------</h1>
+    <br>
     <div class="card container">
         <div class="card-body">
         <h2>--------------------Informasi User---------------</h2><br>
@@ -21,6 +23,7 @@
                        
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+            
         </div>    
     </div>   
 @endsection        

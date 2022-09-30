@@ -66,7 +66,7 @@
                         <td>{{ $booking->movie->harga }}</td>
                         <td>{{ $booking->total_harga }}</td>
                     </tr>
-            </tbody>
+            </tbody>9
         </table>
 
         <br><br><br>
